@@ -1,0 +1,157 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.home {
+    width: 1600px;
+    height: 2157px;
+    display: flex;
+    flex-direction: column;
+    background: #0D4E95;
+    margin: 100px;
+    background-image: url(./img/single.png);
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    gap: 50px;
+}
+
+.position-nav {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1600px;
+    height: 100px;
+    gap: 30px;
+    font-size: 25px;
+    z-index: 1;
+}
+
+.position-nav>p>a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.position-nav>select {
+    width: 53px;
+    height: 22px;
+    Border: 2px solid #FFFFFF;
+    color: white;
+    background: inherit;
+
+}
+
+.position-nav>button {
+    width: 125px;
+    height: 43px;
+    border-radius: 3px;
+    border: 2px solid #FFFFFF;
+    color: white;
+    background: inherit;
+}
+
+.main {
+    background: linear-gradient(358.36deg, #00529D 4.38%, rgba(219, 0, 0, 0.76) 95.64%);
+    width: 1600px;
+    height: 860px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.img {
+    display: flex;
+    gap: 60px;
+}
+
+.img>img {
+    width: 630px;
+    height: 523px;
+}
+
+.img>div {
+    display: flex;
+    flex-direction: column;
+    width: 318px;
+    height: 623px;
+    gap: 30px;
+    font-size: 25px;
+}
+.img>div>div{
+    display: flex;
+    gap: 5px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-left: 110px;
+    font-size: 25px;
+    width: 1260px;
+    height: 900px;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 250px;
+    position: absolute;
+    bottom: 5px;
+}
+
+.foot {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    width: 1600px;
+}
+
+.foot>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.foot>ul>p {
+    font-size: 25px;
+}
+
+.foot>ul>div {
+    display: flex;
+    gap: 10px;
+}
+
+.foot>ul>div>p {
+    font-size: 30px;
+}
+
+.foot>ul>p>a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.bottom {
+    display: flex;
+    gap: 5px;
+
+}
+
+.bottom>p {
+    font-size: 25px;
+}
+
+.bottom>pre {
+    font-size: 25px;
+    color: rgb(209, 206, 206);
+}

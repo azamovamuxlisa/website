@@ -1,0 +1,352 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.home {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: #0D4E95;
+    background-image: url(./img/soyabon.png);
+    background-repeat: no-repeat;
+    color: white;
+    gap: 50px;
+}
+
+.position-nav {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    gap: 30px;
+    font-size: 25px;
+}
+
+.position-nav>p>a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.position-nav>select {
+    width: 53px;
+    height: 22px;
+    Border: 2px solid #FFFFFF;
+    color: white;
+    background: inherit;
+
+}
+
+.position-nav>button {
+    width: 125px;
+    height: 43px;
+    border-radius: 3px;
+    border: 2px solid #FFFFFF;
+    color: white;
+    background: inherit;
+}
+
+.main {
+    background: linear-gradient(358.36deg, #00529D 4.38%, rgba(219, 0, 0, 0.76) 95.64%);
+    height: 865px;
+    display: flex;
+    flex-direction: column;+
+    align-items: center;
+    gap: 20px;
+}
+
+.image {
+    height: 475px;
+    display: grid;
+    grid-template-areas: " n n s"
+        " n n f";
+
+}
+
+.n {
+    grid-area: n;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 475px;
+}
+
+.s {
+    grid-area: s;
+    height: 235px;
+}
+
+.f {
+    grid-area: f;
+    height: 235px;
+}
+
+.flex {
+   
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex>div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 169px;
+    height: 136px;
+    box-shadow: 0px 4px 2px 0px #FFFFFF;
+    border: 0.5px solid white;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex>div>img {
+    width: 43px;
+    height: 38px;
+
+
+}
+
+.main1 {
+   
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    margin-left: 40px;
+}
+.flex2>div>img{
+    width: 400px;
+    height: 350px;
+}
+.flex2 {
+    display: flex;
+    gap: 60px;
+}
+
+.flex2>div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 451.39px;
+    height: 405px;
+    font-size: 25px;
+
+}
+
+.main1>button {
+    width: 322.9px;
+    height: 53px;
+    position: absolute;
+    right: 0px;
+    opacity: 0.1px;
+    background: #00529D;
+    bottom: 0px;
+    color: white;
+    cursor: pointer;
+}
+
+.main2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 1200px;
+    position: relative;
+    margin-left: 40px;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-areas: "n n s "
+        "a b c ";
+    gap: 10px;
+
+}
+
+.h {
+    grid-area: n;
+    width: 800px;
+    height: 255px;
+    background-image: url(./img/Rectangle\ 851.png);
+    position: relative;
+
+}
+
+.h>div>h1 {
+    left: 10px;
+    position: absolute;
+    bottom: 30px;
+
+}
+
+.h>div {
+    width: 800px;
+    height: 255px;
+    background: linear-gradient(180deg, rgba(23, 60, 255, 0) 66.67%, rgba(3, 32, 132, 0.87) 89.58%);
+
+}
+
+.p {
+    grid-area: s;
+    width: 370px;
+    height: 251px;
+    background-image: url(./img/Rectangle\ 852.png);
+    position: relative;
+}
+
+.p>div>h1 {
+    left: 10px;
+    position: absolute;
+    bottom: 30px;
+
+}
+
+.p>div {
+    width: 370px;
+    height: 251px;
+    background: linear-gradient(180deg, rgba(23, 60, 255, 0) 66.67%, rgba(3, 32, 132, 0.87) 89.58%);
+
+}
+
+.a {
+    grid-area: a;
+    width: 370px;
+    height: 251px;
+    background-image: url(./img/Rectangle\ 853.png);
+    position: relative;
+}
+
+.a>div>h3 {
+    left: 10px;
+    position: absolute;
+    bottom: 30px;
+
+}
+
+.a>div {
+    width: 370px;
+    height: 251px;
+    background: linear-gradient(180deg, rgba(23, 60, 255, 0) 66.67%, rgba(3, 32, 132, 0.87) 89.58%);
+
+}
+
+.b {
+    grid-area: b;
+    width: 370px;
+    height: 251px;
+    background-image: url(./img/Rectangle\ 854.png);
+    position: relative;
+}
+
+.b>div>h3 {
+    left: 10px;
+    position: absolute;
+    bottom: 30px;
+
+}
+
+.b>div {
+    width: 370px;
+    height: 251px;
+    background: linear-gradient(180deg, rgba(23, 60, 255, 0) 66.67%, rgba(3, 32, 132, 0.87) 89.58%);
+
+}
+
+.c {
+    grid-area: c;
+    width: 370px;
+    height: 251px;
+    background-image: url(./img/Rectangle\ 856.png);
+    position: relative;
+
+}
+
+.c>div>h3 {
+    left: 10px;
+    position: absolute;
+    bottom: 30px;
+
+}
+
+.c>div {
+    width: 370px;
+    height: 251px;
+    background: linear-gradient(180deg, rgba(23, 60, 255, 0) 66.67%, rgba(3, 32, 132, 0.87) 89.58%);
+
+}
+
+.main2>button {
+    width: 322.9px;
+    height: 53px;
+    position: absolute;
+    right: 30px;
+    opacity: 0.1px;
+    background: #00529D;
+    bottom: 300px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 250px;
+}
+
+.foot {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.foot>ul>p {
+    font-size: 25px;
+}
+
+.foot>ul>div {
+    display: flex;
+    gap: 10px;
+}
+
+.foot>ul>div>p {
+    font-size: 30px;
+}
+
+.foot>ul>p>a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.bottom {
+    display: flex;
+    gap: 5px;
+
+}
+
+.bottom>p {
+    font-size: 25px;
+}
+
+.bottom>pre {
+    font-size: 25px;
+    color: rgb(209, 206, 206);
+}
